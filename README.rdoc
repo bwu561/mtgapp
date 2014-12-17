@@ -8,4 +8,4 @@ Contributors to mtgapp will not be held responsible for however you use our soft
 
 MTGAPP
 mtgapp is a ruby on rails application, which is supposed to emulate Magic: The Gathering gameplay. 
-THIS APP IS  BUILT USING THE RUBY ON RAILS FRAMEWORK. 
+THIS APP IS  BUILT USING THE EXPRESS FRAMEWORK. 
