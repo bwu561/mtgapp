@@ -7,5 +7,5 @@ This project is not affiliated in any way with Wizards of the Coast (WotC). The 
 Contributors to mtgapp will not be held responsible for however you use our software, so use at your own risk!
 
 MTGAPP
-mtgapp is a ruby on rails application, which is supposed to emulate Magic: The Gathering gameplay. 
+mtgapp is an express application, which is supposed to emulate Magic: The Gathering gameplay. 
 THIS APP IS  BUILT USING THE EXPRESS FRAMEWORK. 
