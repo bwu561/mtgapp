@@ -1,13 +1,58 @@
 extends layout
 
 block content
-
+	block navBar
+		nav(class='navbar navbar-inverse' role='navigation')
+			.container-fluid
+				.navbar-header
+					a(class='navbar-brand' href='#') MTGAPP
+              
+							
+	block pageTitle
+		.jumbotron
+			h1 MTGAPP 
+			h2 Prototype Landing page
+	block pageContent			
 	div.container
 		div.row
-			div.col-md-12
-				h1= title
-			div.col-md-12
-				a(class='btn btn-default', href='google.com') google.com
-	
+			div.col-md-6
+				div.well
+					h3 Login:
+					form(class='form-horizontal' role='form')
+						div.form-group
+							label(for='Username' Class='col-sm-2 control-label') Username
+							div.col-sm-10
+								input(type='email' class='form-control' id='Username' placeholder='Username')
+						div.form-group
+							label(for='Password' Class='col-sm-2 control-label') Password
+							div.col-sm-10
+								input(type='password' class='form-control' id='password' placeholder='password')
+						div.form-group
+							div.col-sm-offset-2.col-sm-10
+								a(type='submit' class='btn btn-primary') Submit
+							
+			div.col-md-6
+				div.well
+					h3 Register:
+					form(class='form-horizontal' role='form')
+						div.form-group
+							label(for='Username' Class='col-sm-2 control-label') Username
+							div.col-sm-10
+								input(type='email' class='form-control' id='Username' placeholder='Username')
+						div.form-group
+							label(for='Email' Class='col-sm-2 control-label') Email
+							div.col-sm-10
+								input(type='email' class='form-control' id='Email' placeholder='Email')		
+						div.form-group
+							label(for='Password' Class='col-sm-2 control-label') Password
+							div.col-sm-10
+								input(type='password' class='form-control' id='password' placeholder='password')
+						div.form-group
+							label(for='Password' Class='col-sm-2 control-label') Confirm Password
+							div.col-sm-10
+								input(type='password' class='form-control' id='password2' placeholder='Confirm Password')		
+						div.form-group
+							div.col-sm-offset-2.col-sm-10
+								a(type='submit' class='btn btn-primary') Submit
 		
   
