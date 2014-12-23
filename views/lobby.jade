@@ -1,0 +1,19 @@
+extends layout
+
+block content
+	block chatArea
+		div.container
+			div.row
+				div.col-md-8
+					div.panel.panel-default
+						div.panel-heading
+							h3.panel-title Chat
+						div.panel-body
+						div.panel-footer
+							input(class='form-control', type='text')
+				div.col-md-4
+					div.panel.panel-default
+						div.panel-body
+							h3 Games: 0
+							a(class='btn btn-default', href='#') Create
+							
